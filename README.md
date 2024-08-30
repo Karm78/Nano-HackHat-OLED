@@ -32,6 +32,20 @@ For knowing wich version your NanoPi use
 ```
 lsb_release -a
 ```
+If you are on debian like me (i recommend) Strech is V8 and Buster is v9 , im on V12 now
+Befor run the script , check if your GCC version is good and installed
+
+```
+sudo apt-get update
+sudo apt-get install build-essential
+
+```
+then
+
+```
+gcc --version
+```
+
 
 #### FriendlyCore Xenial / Armbian Stretch / Ubuntu Core Xenial
 Execute the following command in the operating system:
