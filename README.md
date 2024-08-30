@@ -1,3 +1,8 @@
+#### 08/24 Work in progress ###
+
+- the aim for now is K1 key , do and register a Netdiscover command and Nmap command 
+- mout a vpn for be controled by ssh
+
 ## **NanoHat OLED**
 
 Example code of correct use and start for the NanoHat OLED.
@@ -22,6 +27,11 @@ The original implementation was based on Python2.x, thanks to [CuitGGyy](https:/
 
 
 ## Installation
+For knowing wich version your NanoPi use 
+
+```
+lsb_release -a
+```
 
 #### FriendlyCore Xenial / Armbian Stretch / Ubuntu Core Xenial
 Execute the following command in the operating system:
