@@ -32,7 +32,6 @@ For knowing wich version your NanoPi use
 ```
 lsb_release -a
 ```
-If you are on debian like me (i recommend) Strech is V8 and Buster is v9 , im on V12 now
 Befor run the script , check if your GCC version is good and installed
 
 ```
@@ -48,6 +47,7 @@ gcc --version
 
 
 #### FriendlyCore Xenial / Armbian Stretch / Ubuntu Core Xenial
+I haven't made this script compatible with Armbian Stretch, so this is the standard version for the Nano Hat OLED ->>
 Execute the following command in the operating system:
 
 ```
@@ -60,8 +60,8 @@ Execute the following command in the operating system:
 Execute the following command in the operating system:
 
 ```
-# git clone --depth=1 https://github.com/friendlyarm/NanoHatOLED.git
-# cd NanoHatOLED
+# git clone --depth=1 https://github.com/friendlyarm/Nano-HackHat-OLED.git
+# cd Nano-HackHat-OLED
 # sudo -H ./install-compat.sh
 ```
 
